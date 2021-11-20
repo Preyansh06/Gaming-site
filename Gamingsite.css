@@ -1,0 +1,128 @@
+body {
+    background-image: url(https://wallpaperaccess.com/full/683511.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 40px;
+    top: 12px;
+    font-size: 25px;
+}
+
+.mid {
+    /* display: inline-block; */
+    /* text-align: center; */
+    width: fit-content;
+    /* border: 2px solid green; */
+    margin: auto;
+    margin-top: 4px;
+    font-size: 24px;
+    height: 44px;
+
+
+}
+
+.navbar li {
+    padding: 4px 8px;
+
+    margin: 3px;
+    float: left;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.right {
+    /* border: 2px solid yellow; */
+    position: absolute;
+    right: 16px;
+    top: 10px;
+    margin: 23px 60px;
+    color: white;
+    font-size: 20px;
+
+}
+
+.btn {
+    background-color: rgb(0, 255, 242);
+    color: white;
+    border: white;
+    font-size: 20px;
+    box-shadow:2px 2px 2px black;
+    
+}
+.btn:hover{
+    background-color: turquoise;
+    cursor: pointer;
+}
+
+div p {
+    display: inline-block;
+    color: rgb(33, 172, 172);
+
+}
+
+.logo {
+    color: cyan;
+}
+
+.block {
+    width: 76.1%;
+    height: 70px;
+    background-color: rgb(10, 209, 209);
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    left: 322px;
+    border: 2px solid rgb(10, 209, 209);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+
+}
+
+.content {
+    position: absolute;
+    top: 80px;
+    left: 660px;
+    /* border: 2px solid red; */
+}
+
+.content p {
+    font-size: 100px;
+    width: fit-content;
+}
+
+.content2 {
+
+    position: absolute;
+    font-size: 30px;
+    width: 33%;
+    top: 300px;
+    left: 660px;
+
+}
+
+.content2 p {
+    color: white;
+}
+
+.content2 section {
+    color: white;
+}
